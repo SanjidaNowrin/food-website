@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.background-img{
+    background-image: url(images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+.flexible-containerone{
+    display: flex;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 70px;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h2{
+    font-size: 35px;
+}
+h2 span{
+    color: rgb(80, 76, 76);
+}
+.text-color{
+    color: #FC8F49;
+}
+/*navbar*/
+.bg-color{
+    background-color: #0B0D17;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FC8F49;
+    display: block;
+    width: 100px;
+    padding: 30px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.half-widthone{
+        width:40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+        margin-top: 170px;
+}
+
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: rgb(80, 76, 76);
+}
+.half-width img{
+    width: 100%;
+    margin-top: 50px;
+
+}
+p{
+    color: dimgray;
+    margin-bottom: 65px;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, #f58d4c, #FD5834);
+    padding: 20px 35px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 5px 5px 40px #f1ba97;
+}
+/*section 2*/
+.about-me{
+    background-image: url("images/shape.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-text h1{
+    color: dimgray;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.about-text p{
+    margin-top: 50px;
+    text-align: justify;
+    font-size: 19px;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 250px;
+    margin-bottom: 100px;
+    color: black;
+}
+/*section 3*/
+.recipies-text{
+    text-align: center;
+}
+.recipies-text h1{
+    color: dimgray;
+    font-size: 40px;
+    font-weight: 700;
+}
+.recipies-text p{
+    color:black ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.mar-pad{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.menu-recipes{
+    width: 30%;
+    margin: 2% 2% 6%;   
+}
+.menu-recipes p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color:black ;
+}
+.menu-recipes h3{
+    font-size: 30px;
+}
+.menu-recipes img{
+    width: 100%;
+}
+.shadow{
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 30px;
+    padding: 30px;
+}
+.main-area{
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px gray;
+    padding: 0px 40px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.single-item{
+    width: 100%;
+}
+.single-item h1, .single-item p{
+    text-align: center;
+}
+.single-item h1{
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: #0B0D17;
+    padding: 50px 0;
+}
+footer p{ 
+    color: white;
+}
